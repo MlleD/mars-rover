@@ -1,0 +1,5 @@
+Règles de gestion :
+- Sortie des coordonnées habituelles : < 0, > max : le bot ne décrémente ou incrémente pas au-delà
+des limites XMIN, XMAX, YMIN, YMAX fixés  dans la classe Coordinate.
+- Quand une commande invalide (inconnu ou tableau vide de commandes) : la direction et les coordonnées
+du bot ne changent pas
